@@ -45,22 +45,3 @@ for (int i = 0; i < n; i++)
     number2 = nthNumber;
 }
 Console.WriteLine($"Nth fibonacci number is {number1}");
-
-//5. Extra - Arrays
-int[] inputArray = new[] { 1, 2, 5, 7, 2, 3, 5, 7 };
-Console.WriteLine(inputArray.Length);
-
-int evenNumber = 0;
-int oddNumber = 0;
-
-for (int i = 0; i < inputArray.Length; i++){
-   if(inputArray[i] % 2 = 0){
-        evenNumber =  inputArray[i];
-    }
-    
-}
-Console.WriteLine($"this is {evenNumber} and {oddNumber}");
-
-// foreach(int item in input){
-//    
-// };
